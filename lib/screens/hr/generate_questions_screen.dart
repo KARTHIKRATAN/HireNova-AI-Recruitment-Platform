@@ -189,7 +189,7 @@ class _GenerateQuestionsScreenState extends State<GenerateQuestionsScreen> {
                       ),
                       const SizedBox(height: 12),
                       CustomButton(
-                        text: "Generate with Gemini",
+                        text: "Generate Questions",
                         isLoading: provider.isLoading,
                         onPressed: generateQuestions,
                       ),
@@ -259,7 +259,7 @@ class _GeneratingCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  "Gemini is building your assessment",
+                  "Your assessment is building shortly....",
                   style: TextStyle(fontWeight: FontWeight.w800),
                 ),
                 const SizedBox(height: 4),
